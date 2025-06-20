@@ -1,0 +1,1383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Optimization -->
+    <meta name="description" content="PR Natural Hair Care - Premium, all-natural hair care products, hair accessories, and self-defense tools. Ethically sourced ingredients for healthy, beautiful hair.">
+    <meta name="keywords" content="natural hair care, hair products, hair accessories, self-defense, organic hair care, South Africa, Cape Town">
+    <meta name="author" content="PR Natural Hair Care">
+    <!-- Social Media Meta Tags -->
+    <meta property="og:title" content="PR Natural Hair Care | Premium Hair Products">
+    <meta property="og:description" content="Luxurious, all-natural hair care products that nourish and rejuvenate – crafted with ethically sourced ingredients.">
+    <meta property="og:image" content="https://i.ibb.co/zVJpJJKW/Screenshot-20250517-194417-Instagram.jpg">
+    <meta property="og:url" content="https://prnatural.co.za">
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <title>PR Natural Hair Care | Premium Hair Products</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💎</text></svg>">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #4A6572;
+            --primary-dark: #344955;
+            --accent: #F9AA33;
+            --light: #F5F5F5;
+            --dark: #232323;
+            --success: #4CAF50;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Nunito', sans-serif;
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+        
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+        }
+        
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0,0,0,0);
+            border: 0;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header Styles */
+        header {
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+        }
+        
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 700;
+        }
+        
+        .logo span {
+            color: var(--accent);
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin-left: 25px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: color 0.3s;
+            position: relative;
+        }
+        
+        nav ul li a:hover {
+            color: var(--primary);
+        }
+        
+        nav ul li a.active:after {
+            content: "";
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: var(--accent);
+        }
+        
+        .header-icons {
+            display: flex;
+            align-items: center;
+        }
+        
+        .header-icons a {
+            margin-left: 15px;
+            color: var(--dark);
+            position: relative;
+            display: inline-block;
+        }
+        
+        .cart-count {
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            background-color: var(--accent);
+            color: white;
+            font-size: 0.7rem;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://i.ibb.co/zVJpJJKW/Screenshot-20250517-194417-Instagram.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+        }
+        
+        .hero p {
+            font-size: 1.3rem;
+            max-width: 700px;
+            margin: 0 auto 30px;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: var(--accent);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: background-color 0.3s, transform 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            background-color: #e6992e;
+            transform: translateY(-3px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        
+        /* Categories */
+        .categories {
+            padding: 80px 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+            position: relative;
+            font-size: 2.2rem;
+            color: var(--primary);
+        }
+        
+        .section-title:after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 3px;
+            background-color: var(--accent);
+        }
+        
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .category-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .category-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+        }
+        
+        .category-img {
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .category-info {
+            padding: 25px 20px;
+            text-align: center;
+        }
+        
+        .category-info h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+        
+        /* Products */
+        .products {
+            padding: 80px 0;
+            background-color: #f9f9f9;
+        }
+        
+        .product-filter {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .filter-btn {
+            background: none;
+            border: 2px solid var(--primary);
+            padding: 8px 20px;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 20px;
+            transition: all 0.3s;
+        }
+        
+        .filter-btn.active, .filter-btn:hover {
+            background-color: var(--primary);
+            color: white;
+        }
+        
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        
+        .product-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .product-img {
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+            background-color: #f0f0f0;
+        }
+        
+        .product-info {
+            padding: 20px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .product-info h3 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            color: var(--primary);
+        }
+        
+        .product-info p {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+            flex-grow: 1;
+        }
+        
+        .product-price {
+            font-weight: 700;
+            font-size: 1.2rem;
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+        
+        .add-to-cart {
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            padding: 12px 15px;
+            border-radius: 5px;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            width: 100%;
+        }
+        
+        .add-to-cart:hover {
+            background-color: var(--primary-dark);
+        }
+        
+        /* About Section */
+        .about {
+            padding: 100px 0;
+            background: linear-gradient(to right, white 50%, var(--light) 50%);
+        }
+        
+        .about-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+        
+        .about-img {
+            height: 400px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+        
+        .about-content h2 {
+            font-size: 2.5rem;
+            margin-bottom: 25px;
+            color: var(--primary);
+        }
+        
+        .about-content p {
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+        
+        /* Search Overlay */
+        .search-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255,255,255,0.95);
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .search-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .search-container {
+            width: 80%;
+            max-width: 600px;
+            text-align: center;
+        }
+        
+        .search-container h2 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            color: var(--primary);
+        }
+        
+        .search-form {
+            position: relative;
+        }
+        
+        .search-input {
+            width: 100%;
+            padding: 15px 20px;
+            border: 2px solid var(--primary);
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-family: 'Nunito', sans-serif;
+        }
+        
+        .search-btn {
+            position: absolute;
+            right: 5px;
+            top: 5px;
+            background-color: var(--accent);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            font-size: 1.2rem;
+            transition: background-color 0.3s;
+        }
+        
+        .search-btn:hover {
+            background-color: #e6992e;
+        }
+        
+        .close-search {
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            font-size: 2rem;
+            background: none;
+            border: none;
+            color: var(--primary);
+            cursor: pointer;
+        }
+        
+        /* Cart Sidebar */
+        .cart-sidebar {
+            position: fixed;
+            top: 0;
+            right: -400px;
+            width: 100%;
+            max-width: 380px;
+            height: 100vh;
+            background-color: white;
+            box-shadow: -5px 0 15px rgba(0,0,0,0.1);
+            z-index: 1000;
+            transition: right 0.4s ease-in-out;
+            overflow-y: auto;
+            padding: 20px;
+        }
+        
+        .cart-sidebar.active {
+            right: 0;
+        }
+        
+        .cart-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+            margin-bottom: 20px;
+        }
+        
+        .close-cart {
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: #777;
+        }
+        
+        .cart-items {
+            margin-bottom: 20px;
+        }
+        
+        .cart-item {
+            display: flex;
+            padding: 15px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .cart-item-img {
+            width: 80px;
+            height: 80px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 5px;
+            margin-right: 15px;
+        }
+        
+        .cart-item-info {
+            flex-grow: 1;
+        }
+        
+        .cart-item-title {
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        
+        .cart-item-price {
+            color: var(--primary);
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        
+        .cart-item-actions {
+            display: flex;
+            align-items: center;
+        }
+        
+        .quantity-btn {
+            width: 30px;
+            height: 30px;
+            background-color: #f0f0f0;
+            border: none;
+            border-radius: 50%;
+            font-size: 1rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .item-quantity {
+            margin: 0 10px;
+        }
+        
+        .remove-item {
+            background: none;
+            border: none;
+            color: #ff6b6b;
+            margin-left: 15px;
+            cursor: pointer;
+        }
+        
+        .cart-total {
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.2rem;
+            font-weight: 700;
+            padding: 20px 0;
+            border-top: 1px solid #eee;
+            margin-top: 10px;
+        }
+        
+        .checkout-btn {
+            display: block;
+            width: 100%;
+            background-color: var(--success);
+            color: white;
+            border: none;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 700;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 20px;
+        }
+        
+        .checkout-btn:hover {
+            background-color: #43a047;
+        }
+        
+        /* WhatsApp Button */
+        .whatsapp-btn {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 60px;
+            height: 60px;
+            background-color: #25D366;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 2rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            z-index: 99;
+            text-decoration: none;
+            transition: transform 0.3s;
+        }
+        
+        .whatsapp-btn:hover {
+            transform: scale(1.1);
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--primary-dark);
+            color: white;
+            padding: 80px 0 30px;
+        }
+        
+        .footer-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+        }
+        
+        .footer-col h3 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        
+        .footer-col h3:after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 2px;
+            background-color: var(--accent);
+        }
+        
+        .footer-col ul {
+            list-style: none;
+        }
+        
+        .footer-col ul li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-col ul li a {
+            color: #ddd;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-col ul li a:hover {
+            color: var(--accent);
+        }
+        
+        .contact-info p {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .contact-info i {
+            margin-right: 10px;
+            color: var(--accent);
+            min-width: 20px;
+        }
+        
+        .social-icons {
+            display: flex;
+            margin-top: 20px;
+        }
+        
+        .social-icons a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            margin-right: 10px;
+            color: white;
+            transition: background-color 0.3s;
+        }
+        
+        .social-icons a:hover {
+            background-color: var(--accent);
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            margin-top: 30px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+        
+        /* Overlay */
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            z-index: 999;
+            display: none;
+        }
+        
+        .overlay.active {
+            display: block;
+        }
+        
+        /* Mobile Menu */
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: var(--primary);
+            cursor: pointer;
+        }
+        
+        .mobile-nav {
+            position: fixed;
+            top: 0;
+            left: -100%;
+            width: 80%;
+            max-width: 300px;
+            height: 100vh;
+            background-color: white;
+            z-index: 1000;
+            transition: left 0.4s ease-in-out;
+            overflow-y: auto;
+            padding: 80px 20px 20px;
+            box-shadow: 5px 0 15px rgba(0,0,0,0.1);
+        }
+        
+        .mobile-nav.active {
+            left: 0;
+        }
+        
+        .mobile-nav ul {
+            list-style: none;
+        }
+        
+        .mobile-nav ul li {
+            margin-bottom: 15px;
+        }
+        
+        .mobile-nav ul li a {
+            display: block;
+            padding: 10px 0;
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: 600;
+            font-size: 1.1rem;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .close-mobile-menu {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 1.5rem;
+            background: none;
+            border: none;
+            color: var(--primary);
+            cursor: pointer;
+        }
+        
+        /* Responsive */
+        @media (max-width: 992px) {
+            .about-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .about-img {
+                height: 300px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            nav ul {
+                display: none;
+            }
+            
+            .mobile-menu-btn {
+                display: block;
+            }
+            
+            .hero {
+                padding: 70px 0;
+            }
+            
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero p {
+                font-size: 1.1rem;
+            }
+            
+            .category-grid {
+                gap: 20px;
+            }
+            
+            .footer-container {
+                gap: 30px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .hero {
+                padding: 60px 0;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .hero p {
+                font-size: 1rem;
+            }
+            
+            .section-title {
+                font-size: 1.8rem;
+            }
+            
+            .product-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .filter-btn {
+                padding: 6px 15px;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Search Overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <button class="close-search" id="closeSearch">&times;</button>
+        <div class="search-container">
+            <h2>Search Products</h2>
+            <form class="search-form">
+                <input type="text" class="search-input" placeholder="What are you looking for?">
+                <button type="submit" class="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <a href="#" class="logo">Pearl <span>Reflections</span></a>
+            
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#">Ingredients</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-icons">
+                <a href="#" id="searchIcon">
+                    <i class="fas fa-search"></i>
+                </a>
+                <a href="#">
+                    <i class="fas fa-user"></i>
+                </a>
+                <a href="#" id="cartIcon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav" id="mobileNav">
+        <button class="close-mobile-menu" id="closeMobileMenu">&times;</button>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#">Ingredients</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Account</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" role="img" aria-label="Natural hair care products displayed beautifully">
+        <div class="container">
+            <h1>Premium Natural Hair Care</h1>
+            <p>Luxurious, all-natural hair care products that nourish and rejuvenate – crafted with ethically sourced ingredients.</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories" aria-label="Product categories">
+        <div class="container">
+            <h2 class="section-title">Shop By Category</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <div class="category-img" style="background-image: url('https://i.ibb.co/JjhfmgrW/Screenshot-20250619-155254-Whats-App.jpg');" role="img" aria-label="Hair care products"></div>
+                    <div class="category-info">
+                        <h3>Hair Care</h3>
+                        <a href="#" class="btn">View Products</a>
+                    </div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-img" style="background-image: url('https://i.ibb.co/KxyWDRfF/Screenshot-20250618-081436-Whats-App.jpg');" role="img" aria-label="Hair accessories"></div>
+                    <div class="category-info">
+                        <h3>Hair Accessories</h3>
+                        <a href="#" class="btn">View Products</a>
+                    </div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-img" style="background-image: url('https://i.ibb.co/pvtTBgQ0/Screenshot-20250617-233659-Whats-App.jpg');" role="img" aria-label="Self-defense tools"></div>
+                    <div class="category-info">
+                        <h3>Self-Defense Tools</h3>
+                        <a href="#" class="btn">View Products</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section class="products" id="products" aria-label="Our products">
+        <div class="container">
+            <h2 class="section-title">Our Products</h2>
+            
+            <div class="product-filter">
+                <button class="filter-btn active" data-filter="all">All Products</button>
+                <button class="filter-btn" data-filter="hair-care">Hair Care</button>
+                <button class="filter-btn" data-filter="accessories">Accessories</button>
+                <button class="filter-btn" data-filter="self-defense">Self-Defense</button>
+            </div>
+            
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card" data-category="hair-care">
+                    <div class="product-img" style="background-image: url('https://i.ibb.co/qYQx4kbC/Screenshot-20250618-081436-Whats-App.jpg');" role="img" aria-label="Native Child Deep Conditioner"></div>
+                    <div class="product-info">
+                        <h3>Native Child Deep Conditioner</h3>
+                        <p>Intensive nourishment for all hair types with natural ingredients</p>
+                        <div class="product-price">R 89,90</div>
+                        <button class="add-to-cart" data-id="1" data-name="Native Child Deep Conditioner" data-price="89.90" data-image="https://images.unsplash.com/photo-1595425977377-6aaf06c4457e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card" data-category="hair-care">
+                    <div class="product-img" style="background-image: url('https://i.ibb.co/5WrF4HXb/Screenshot-20250618-080230-Whats-App.jpg');" role="img" aria-label="Native Child Moisturizing Shampoo"></div>
+                    <div class="product-info">
+                        <h3>Native Child Moisturizing Shampoo</h3>
+                        <p>Sulfate, Silicon & Paraben Free formula for gentle cleansing</p>
+                        <div class="product-price">R 89,90</div>
+                        <button class="add-to-cart" data-id="2" data-name="Native Child Moisturizing Shampoo" data-price="89.90" data-image="https://images.unsplash.com/photo-1595425977377-6aaf06c4457e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card" data-category="accessories">
+                    <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1622288432450-277d0b5b4d3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80');" role="img" aria-label="Wood Grain Handle Detangler"></div>
+                    <div class="product-info">
+                        <h3>Wood Grain Handle Detangler</h3>
+                        <p>Gentle detangling brush with ergonomic wood grain handle</p>
+                        <div class="product-price">R 89,00</div>
+                        <button class="add-to-cart" data-id="3" data-name="Wood Grain Handle Detangler" data-price="89.00" data-image="https://images.unsplash.com/photo-1622288432450-277d0b5b4d3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="product-card" data-category="accessories">
+                    <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1622288432450-277d0b5b4d3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80');" role="img" aria-label="Reversible Satin Hair Bonnet"></div>
+                    <div class="product-info">
+                        <h3>Reversible Satin Hair Bonnet</h3>
+                        <p>Double-sided satin bonnet for hair protection during sleep</p>
+                        <div class="product-price">R 49,00</div>
+                        <button class="add-to-cart" data-id="4" data-name="Reversible Satin Hair Bonnet" data-price="49.00" data-image="https://images.unsplash.com/photo-1622288432450-277d0b5b4d3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 5 -->
+                <div class="product-card" data-category="self-defense">
+                    <div class="product-img" style="background-image: url('https://i.ibb.co/PsQzJ4b0/Screenshot-20250617-235526-Whats-App.jpg');" role="img" aria-label="Safety Keychain (9-piece)"></div>
+                    <div class="product-info">
+                        <h3>Safety Keychain (9-piece)</h3>
+                        <p>Multi-tool self-defense keychain set for personal protection</p>
+                        <div class="product-price">R 399,00 - R 559,00</div>
+                        <button class="add-to-cart" data-id="5" data-name="Safety Keychain (9-piece)" data-price="399.00" data-image="https://images.unsplash.com/photo-1589320011598-2a0e3aeb32e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 6 -->
+                <div class="product-card" data-category="hair-care">
+                    <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1595425977377-6aaf06c4457e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80');" role="img" aria-label="Pearl Reflection Herbal-Infused Oil"></div>
+                    <div class="product-info">
+                        <h3>Pearl Reflection Herbal-Infused Oil</h3>
+                        <p>Handmade hair growth oil with natural herbal ingredients</p>
+                        <div class="product-price">R 149,00 - R 249,00</div>
+                        <button class="add-to-cart" data-id="6" data-name="Pearl Reflection Herbal-Infused Oil" data-price="149.00" data-image="https://images.unsplash.com/photo-1595425977377-6aaf06c4457e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 7 -->
+                <div class="product-card" data-category="accessories">
+                    <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1622288432450-277d0b5b4d3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80');" role="img" aria-label="Scalp Massager"></div>
+                    <div class="product-info">
+                        <h3>Scalp Massager</h3>
+                        <p>Designed to encourage blood circulation and promote hair growth</p>
+                        <div class="product-price">R 69,00</div>
+                        <button class="add-to-cart" data-id="7" data-name="Scalp Massager" data-price="69.00" data-image="https://images.unsplash.com/photo-1622288432450-277d0b5b4d3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 8 -->
+                <div class="product-card" data-category="self-defense">
+                    <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1589320011598-2a0e3aeb32e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80');" role="img" aria-label="Safety Portable Door Lock"></div>
+                    <div class="product-info">
+                        <h3>Safety Portable Door Lock</h3>
+                        <p>Extra peace of mind, wherever you go with this travel-friendly lock</p>
+                        <div class="product-price">R 249,00</div>
+                        <button class="add-to-cart" data-id="8" data-name="Safety Portable Door Lock" data-price="249.00" data-image="https://images.unsplash.com/photo-1589320011598-2a0e3aeb32e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about" aria-label="About PR Natural Hair Care">
+        <div class="container about-container">
+            <div class="about-img" style="background-image: url('https://i.ibb.co/zVJpJJKW/Screenshot-20250517-194417-Instagram.jpg');" role="img" aria-label="Founder of PR Natural Hair Care"></div>
+            <div class="about-content">
+                <h2>About PR Natural Hair Care</h2>
+                <p>PR is dedicated to creating luxurious, all-natural hair care products that nourish and rejuvenate – crafted with ethically sourced ingredients.</p>
+                <p>Our mission is to provide premium hair solutions while promoting self-care and empowerment. We believe that beautiful hair starts with healthy hair, and healthy hair begins with natural, nourishing ingredients.</p>
+                <p>Each product is carefully formulated to address specific hair concerns while maintaining our commitment to sustainability and ethical practices.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shopping Cart Sidebar -->
+    <div class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <button class="close-cart">&times;</button>
+        </div>
+        <div class="cart-items">
+            <!-- Cart items will be dynamically added here -->
+        </div>
+        <div class="cart-total">
+            <span>Total:</span>
+            <span id="cart-total-price">R 0,00</span>
+        </div>
+        <button class="checkout-btn">Proceed to Checkout</button>
+    </div>
+    
+    <!-- Overlay for cart and mobile menu -->
+    <div class="overlay"></div>
+    
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/27729061233" class="whatsapp-btn" target="_blank" aria-label="Contact us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h3>PR Natural</h3>
+                    <p>Premium natural hair care products crafted with ethically sourced ingredients to nourish and rejuvenate your hair.</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#">Ingredients</a></li>
+                        <li><a href="#">Hair Care Guide</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Customer Care</h3>
+                    <ul>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> +27 72 906 1233</p>
+                        <p><i class="fas fa-envelope"></i> info@pearlreflection24@gmail.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Durban, South Africa</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 PR Natural Hair Care. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Shopping Cart Functionality
+        const cart = [];
+        const cartIcon = document.getElementById('cartIcon');
+        const cartSidebar = document.querySelector('.cart-sidebar');
+        const closeCart = document.querySelector('.close-cart');
+        const overlay = document.querySelector('.overlay');
+        const cartItemsContainer = document.querySelector('.cart-items');
+        const cartTotalPrice = document.getElementById('cart-total-price');
+        const cartCount = document.querySelector('.cart-count');
+        const addToCartButtons = document.querySelectorAll('.add-to-cart');
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const productCards = document.querySelectorAll('.product-card');
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileNav = document.getElementById('mobileNav');
+        const closeMobileMenu = document.getElementById('closeMobileMenu');
+        const searchIcon = document.getElementById('searchIcon');
+        const searchOverlay = document.getElementById('searchOverlay');
+        const closeSearch = document.getElementById('closeSearch');
+        
+        // Mobile Menu
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileNav.classList.add('active');
+            overlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+        
+        closeMobileMenu.addEventListener('click', () => {
+            mobileNav.classList.remove('active');
+            overlay.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        });
+        
+        // Search Functionality
+        searchIcon.addEventListener('click', (e) => {
+            e.preventDefault();
+            searchOverlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+        
+        closeSearch.addEventListener('click', () => {
+            searchOverlay.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        });
+        
+        // Close search when clicking outside
+        searchOverlay.addEventListener('click', (e) => {
+            if (e.target === searchOverlay) {
+                searchOverlay.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            }
+        });
+        
+        // Open Cart
+        cartIcon.addEventListener('click', (e) => {
+            e.preventDefault();
+            cartSidebar.classList.add('active');
+            overlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+        
+        // Close Cart
+        closeCart.addEventListener('click', () => {
+            cartSidebar.classList.remove('active');
+            overlay.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        });
+        
+        // Close Cart with Overlay
+        overlay.addEventListener('click', () => {
+            cartSidebar.classList.remove('active');
+            mobileNav.classList.remove('active');
+            searchOverlay.classList.remove('active');
+            overlay.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        });
+        
+        // Add to Cart
+        addToCartButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const id = button.dataset.id;
+                const name = button.dataset.name;
+                const price = parseFloat(button.dataset.price);
+                const image = button.dataset.image;
+                
+                // Check if item already in cart
+                const existingItem = cart.find(item => item.id === id);
+                
+                if (existingItem) {
+                    existingItem.quantity += 1;
+                } else {
+                    cart.push({
+                        id,
+                        name,
+                        price,
+                        image,
+                        quantity: 1
+                    });
+                }
+                
+                updateCart();
+                
+                // Show cart sidebar
+                cartSidebar.classList.add('active');
+                overlay.classList.add('active');
+                document.body.style.overflow = 'hidden';
+                
+                // Visual feedback
+                button.textContent = 'Added!';
+                button.style.backgroundColor = 'var(--success)';
+                setTimeout(() => {
+                    button.textContent = 'Add to Cart';
+                    button.style.backgroundColor = '';
+                }, 1500);
+            });
+        });
+        
+        // Update Cart
+        function updateCart() {
+            // Clear cart items container
+            cartItemsContainer.innerHTML = '';
+            
+            let total = 0;
+            let totalCount = 0;
+            
+            // Add items to cart
+            cart.forEach(item => {
+                const itemTotal = item.price * item.quantity;
+                total += itemTotal;
+                totalCount += item.quantity;
+                
+                const cartItemElement = document.createElement('div');
+                cartItemElement.classList.add('cart-item');
+                cartItemElement.innerHTML = `
+                    <div class="cart-item-img" style="background-image: url('${item.image}')"></div>
+                    <div class="cart-item-info">
+                        <div class="cart-item-title">${item.name}</div>
+                        <div class="cart-item-price">R ${item.price.toFixed(2)}</div>
+                        <div class="cart-item-actions">
+                            <button class="quantity-btn minus" data-id="${item.id}">-</button>
+                            <span class="item-quantity">${item.quantity}</span>
+                            <button class="quantity-btn plus" data-id="${item.id}">+</button>
+                            <button class="remove-item" data-id="${item.id}">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                `;
+                
+                cartItemsContainer.appendChild(cartItemElement);
+            });
+            
+            // Update total
+            cartTotalPrice.textContent = `R ${total.toFixed(2)}`;
+            cartCount.textContent = totalCount;
+            
+            // Add event listeners to new buttons
+            document.querySelectorAll('.quantity-btn.minus').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const id = btn.dataset.id;
+                    const item = cart.find(item => item.id === id);
+                    if (item.quantity > 1) {
+                        item.quantity -= 1;
+                        updateCart();
+                    }
+                });
+            });
+            
+            document.querySelectorAll('.quantity-btn.plus').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const id = btn.dataset.id;
+                    const item = cart.find(item => item.id === id);
+                    item.quantity += 1;
+                    updateCart();
+                });
+            });
+            
+            document.querySelectorAll('.remove-item').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const id = btn.dataset.id;
+                    const itemIndex = cart.findIndex(item => item.id === id);
+                    cart.splice(itemIndex, 1);
+                    updateCart();
+                });
+            });
+        }
+        
+        // Product Filtering
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                
+                // Add active class to clicked button
+                button.classList.add('active');
+                
+                const filter = button.dataset.filter;
+                
+                // Show/hide products based on filter
+                productCards.forEach(card => {
+                    if (filter === 'all' || card.dataset.category === filter) {
+                        card.style.display = 'flex';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    window.scrollTo({
+                        top: target.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Initialize cart
+        updateCart();
+    </script>
+</body>
+</html>
